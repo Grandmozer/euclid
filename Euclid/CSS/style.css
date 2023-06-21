@@ -186,7 +186,7 @@
 .bacground-search{
   width: 24px;
   height: 24px;
-  background: url(/Euclid/IMG/search.svg);
+  background: url(/IMG/search.svg);
   background-size: 24px;
   background-repeat: no-repeat;
 }
@@ -194,7 +194,7 @@
   padding: 0;
   width: 24px;
   height: 24px;
-  background: url(/Euclid/IMG/search.svg);
+  background: url(/IMG/search.svg);
   background-size: 24px;
   background-repeat: no-repeat;
 }
@@ -203,7 +203,7 @@
   width: 24px;
   height: 24px;
   margin: 13px;
-  background-image: url(/Euclid/IMG/closed_search_def.svg);
+  background-image: url(/IMG/closed_search_def.svg);
   background-size: 24px;
   background-repeat: no-repeat;
 }
@@ -280,13 +280,13 @@
 }
 
 .slide-1 {
-  background-image: url(/Euclid/IMG/hero-large-1.png);
+  background-image: url(/IMG/hero-large-1.png);
 }
 .slide-2 {
-  background-image: url(/Euclid/IMG/hero-large-2.png);
+  background-image: url(/IMG/hero-large-2.png);
 }
 .slide-3 {
-  background-image: url(/Euclid/IMG/hero-large-3.png);
+  background-image: url(/IMG/hero-large-3.png);
 }
 
 .swiper-pagination-bullet {
@@ -333,7 +333,7 @@
 
 .section-about-us{
   align-items: flex-start;
-  width: 1235px;
+  max-width: 1235px;
 }
 .section-heading{
   font-size: 48px;
@@ -342,6 +342,7 @@
 }
 .section-discription{
   padding-top: 20px;
+  word-wrap: break-word;
 }
 
 .section-about-services{
@@ -351,7 +352,7 @@
 .about-services-l{
 display: flex;
 position: relative;
-background-image: url(/Euclid/IMG/we-are-large.png);
+background-image: url(/IMG/we-are-large.png);
 background-repeat: no-repeat;
 width: 100%;
 height: 622px;
@@ -393,11 +394,11 @@ border-radius: 32px;
 }
 .about-services-item{
   width: auto;
-  height: 165px;
+  height: 295px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 65px;
+  /* padding: 65px; */
   border: solid var(--grey-color) 1px;
   border-radius: 32px;
   margin-bottom: 32px;
@@ -406,16 +407,17 @@ border-radius: 32px;
   background-position: left 60px top 50%;
 }
 .about-services-item-top{
-  background-image: url(/Euclid/IMG/we-are-package.svg);
+  background-image: url(/IMG/we-are-package.svg);
 }
 .about-services-item-bottom{
-  background-image: url(/Euclid/IMG/we-are-gear.svg);
+  background-image: url(/IMG/we-are-gear.svg);
 }
 .about-services-we-are{
   min-width: 450px;
 }
 .big-indent{
   padding-left: 300px;
+  margin-top:50px;
 }
 /* how we work */
 .section-heading{
@@ -452,7 +454,8 @@ border-radius: 32px;
 .img-how-work{
   width: 870px;
   height: 460px;
-  background-image:url(/Euclid/IMG/How-working-large-1.png);
+  border-radius: 32px;
+  background-image:url(/IMG/How-working-large-1.png);
   background-repeat:no-repeat;
 }
 /* questions */
@@ -474,12 +477,12 @@ border-radius: 32px;
 .point-icon{
   width: 50px;
   height: 50px;
-  background-image:url(/Euclid/IMG/Point.svg);
+  background-image:url(/IMG/Point.svg);
   background-repeat:no-repeat;
 
 }
 .question-text{
-  width: 1003px;
+  max-width: 1003px;
 }
 /* Footer */
 .footer{
@@ -516,22 +519,22 @@ border-radius: 32px;
   margin-right: 25px;
 }
 .ok{
-  background-image: url(/Euclid/IMG/ok.svg);
+  background-image: url(/IMG/ok.svg);
 }
 .ok:hover{
-  background-image: url(/Euclid/IMG/ok-hover.svg);
+  background-image: url(/IMG/ok-hover.svg);
 }
 .ok:active{
-  background-image: url(/Euclid/IMG/ok-active.svg);
+  background-image: url(/IMG/ok-active.svg);
 }
 .vk{
-  background-image: url(/Euclid/IMG/Vk.svg);
+  background-image: url(/IMG/Vk.svg);
 }
 .vk:hover{
-  background-image: url(/Euclid/IMG/Vk-hover.svg);
+  background-image: url(/IMG/Vk-hover.svg);
 }
 .vk:active{
-  background-image: url(/Euclid/IMG/Vk-active.svg);
+  background-image: url(/IMG/Vk-active.svg);
 }
 .footer-center{
   display: flex;

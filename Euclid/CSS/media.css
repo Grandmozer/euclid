@@ -14,6 +14,7 @@
     margin-left: 0px;
   }
 }
+
 @media (max-width: 1366px) {
   .container {
     max-width: 1366px;
@@ -30,86 +31,122 @@
 }
 
 @media(min-width:1024px){
-    .logo{
-    padding-left: 75px;
-    }
-    .burger{
-      display: none;
-    }
-    .mobile{
-      display: none;
-    }
-    .search{
-      padding-right: 20px;
-    }
+  .logo{
+  padding-left: 75px;
   }
+  .burger{
+    display: none;
+  }
+  .mobile{
+    display: none;
+  }
+  .search{
+    padding-right: 20px;
+  }
+}
+
 @media (max-width:1024px){
   .container{
-        max-width: 924px;
-      }
-
-      /* HEADER */
-    .logo{
-      width: 150px;
-      height: 48px;
+      max-width: 924px;
     }
-    .header-nav-item{
-      display: none;
+    .title{
+      font-weight: 700;
+      line-height: 29.26px;
     }
-    .burger{
-      width: 30px;
-      height: 23px;
-      background-image: url(/Euclid/IMG/burger.svg);
-      background-size:contain;
-    }
-    .header-menu{
-      padding: 0px 50px 0px 50px;
-    }
-    /* HERO */
-    .slider {
-        height: 668px;
-      }
-    /* .slider__text_container{
-      max-width: 770px;
-    } */
-    /* .hero-text{
-        padding: 50px;
-        width: 770px;
-    } */
-    .slider__title{
-      max-width: 770px;
-      margin: 0px;
-      margin-bottom: 16px;
-      padding-top: 160px;
-      padding-left: 77px;
-      font-size: 60px;
-      line-height: 73px;
-    }
-    .slider__text{
-      max-width: 660px;
-        font-size: 20px;
-        line-height: 24,38px;
-    }
-    .btn-large {
-        padding: 19px 37px;
-        font-weight: bold;
-        font-size: 23px;
-        line-height: 28.04px;
-        }
-        
-    .swiper-slide{
-      /* width: 924px; */
-      height: 668px;
-      margin-top: 50px;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-/* ABOUT */
-.section-about-us{
-  max-width: 924px;
-  min-width: 668px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
+    /* HEADER */
+  .logo{
+    width: 150px;
+    height: 48px;
   }
+  .header-nav-item{
+    display: none;
+  }
+  .burger{
+    width: 30px;
+    height: 23px;
+    background-image: url(/IMG/burger.svg);
+    background-size:contain;
+  }
+  .header-menu{
+    padding: 0px 50px 0px 50px;
+  }
+  /* HERO */
+  .slider {
+      height: 668px;
+    }
+  /* .slider__text_container{
+    max-width: 770px;
+  } */
+  /* .hero-text{
+      padding: 50px;
+      width: 770px;
+  } */
+  .slider__title{
+    max-width: 770px;
+    margin: 0px;
+    margin-bottom: 16px;
+    padding-top: 160px;
+    padding-left: 77px;
+    font-size: 60px;
+    line-height: 73px;
+  }
+  .slider__text{
+      max-width: 660px;
+      font-size: 20px;
+      line-height: 24,38px;
+  }
+  .btn-large {
+      padding: 19px 37px;
+      font-weight: bold;
+      font-size: 23px;
+      line-height: 28.04px;
+      }
+      
+  .swiper-slide{
+    /* width: 924px; */
+    height: 668px;
+    margin-top: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  /* ABOUT */
+  .section-about-us{
+    max-width: 924px;
+    min-width: 668px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .about-services-we-are{
+    max-width: 450px;
+  }
+
+  /* HOW WORK */
+  .how-worrking-text{
+    max-width: 437px;
+    margin-right: 50px;
+  }
+  .img-how-work{
+    background-image:url(/IMG/How-working-midle-1.png);
+    width:437px ;
+    height: 689px;
+  }
+}
+@media(max-width:968px){
+  .slider__text{
+    max-width: 588px;
+  }
+  .about-services-l {
+    background-size: cover;
+  }
+}
+@media(max-width:860px){
+  .about-services-item{
+    background-size: 114px;
+    background-position: left 40px top 50%;
+  }
+  .big-indent{
+    padding-left: 170px;
+  }
+}
