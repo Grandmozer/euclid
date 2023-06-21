@@ -48,7 +48,7 @@
     .burger{
       width: 30px;
       height: 23px;
-      background-image: url(/IMG/burger.svg);
+      background-image: url(/Euclid/IMG/burger.svg);
       background-size:contain;
     }
     .header-menu{
