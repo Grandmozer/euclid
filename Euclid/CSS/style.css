@@ -504,6 +504,7 @@ border-radius: 32px;
 }
 .footer-social{
   display: flex;
+  transition: all .8s ease;
 }
 .footer-icon{
   width: 60px;
@@ -517,8 +518,20 @@ border-radius: 32px;
 .ok{
   background-image: url(/Euclid/IMG/ok.svg);
 }
+.ok:hover{
+  background-image: url(/Euclid/IMG/ok-hover.svg);
+}
+.ok:active{
+  background-image: url(/Euclid/IMG/ok-active.svg);
+}
 .vk{
   background-image: url(/Euclid/IMG/Vk.svg);
+}
+.vk:hover{
+  background-image: url(/Euclid/IMG/Vk-hover.svg);
+}
+.vk:active{
+  background-image: url(/Euclid/IMG/Vk-active.svg);
 }
 .footer-center{
   display: flex;
