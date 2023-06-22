@@ -131,6 +131,13 @@
   font-style: 18px;
   line-height: 22px;
 }
+.hover-action:hover{
+  border-bottom:solid 2px var(--yellow-color);
+}
+.hover-action:active{
+  color:var(--dark-yellow);
+  border-bottom:solid 2px var(--dark-yellow);
+}
 /* SEARCH */
 .search{
   display: flex;
@@ -350,13 +357,15 @@
   display: flex;
 }
 .about-services-l{
-display: flex;
-position: relative;
-background-image: url(/IMG/we-are-large.png);
-background-repeat: no-repeat;
-width: 100%;
-height: 622px;
-border-radius: 32px;
+  width: 100%;
+  height: 622px;
+  display: flex;
+  position: relative;
+  border-radius: 32px;
+  background-image: url(/IMG/we-are-large.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .about-services-discr{
   width: 100%;
@@ -441,8 +450,12 @@ border-radius: 32px;
 .how-worrking-text{
   max-width: 758px;
 }
-.btn-how-worrking{
+.butons-steps-how-working{
   margin-top: 18px;
+  display: flex;
+  flex-direction: row;
+}
+.btn-how-worrking{
   margin-right: 32px;
   padding: 19px 38px 19px 38px;
 }
@@ -583,4 +596,7 @@ border-radius: 32px;
   padding-top: 75px;
   max-width: 363px;
   color: var(--grey-color);
+}
+.footer-botom{
+  border-top: 1px solid var( --input-footer);
 }
