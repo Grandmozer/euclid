@@ -138,7 +138,11 @@
     width:437px ;
     height: 689px;
   }
-  
+
+  /* QUESTION */
+  .triger-descr{
+    max-width: 756px;
+  }
     /* FOOTER */
     .footer-center{
       width: 540px;
@@ -177,6 +181,9 @@
   }
   .big-indent{
     padding-left: 170px;
+  }
+  .triger-descr{
+    max-width: 570px;
   }
 }
 @media(max-width:768px){
@@ -222,11 +229,52 @@
     margin-left: 0;
     margin-right: 50px;
   }
+  .section-about-services{
+    padding: 50px 0px 80px 0px;
+  }
+  .about-services-item{
+    margin-bottom: px;
+  }
   .section-discription{
     padding-top: 0;
   }
   .about-services-text{
     max-width: 366px;
     margin-left: 40px;
+  }
+  /* HOW TO WORK */
+  .how-worrking-title,
+  .list-steps{
+    padding-bottom: 50px;
+  }
+  .list-steps{
+    justify-content: space-between;
+  }
+  .step:not(:last-child){
+    padding-right: 0px;
+  }
+  .how-worrking-slider{
+    margin-bottom: 49px;
+    flex-direction: column-reverse;
+  }
+  .img-how-work{
+    height: 284px;
+    width: 100%;
+    margin-bottom: 38px;
+    background-image:url(/IMG/How-working-large-1.png);
+    background-size:100%;
+  }
+  .how-worrking-text{
+    min-width: 667px;
+  }
+  .butons-steps-how-working{
+    margin-top: 25px;
+  }
+  /* QUESTION */
+  /* .line{
+   
+  } */
+  .triger-descr{
+    max-width: 570px;
   }
 }
