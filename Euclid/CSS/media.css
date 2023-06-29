@@ -272,9 +272,9 @@
     margin-top: 25px;
   }
   /* QUESTION */
-  /* .line{
-   
-  } */
+  .line{
+   padding-top: 0;
+  }
   .triger-descr{
     max-width: 570px;
   }
@@ -290,6 +290,10 @@
   /* ABOUT US */
   .about-services-we-are {
     min-width: 295px;
+  }
+  /* QUESTIONS */
+  .triger-descr {
+    max-width: 470px;
   }
 }
 @media(min-width:628px){
@@ -319,7 +323,30 @@
   .img-how-work{
     border-radius: 0px;
   }
+  /* QUESTIONS */
+  .triger-descr {
+    max-width: 430px;
+  }
+  /* FOOTER */
+  .container-footer{
+    width: auto;
+    padding: 33px 33px 16px 33px ;
+    margin: 0px;
+  }
+  .form-input {
+    width: auto;
+  }
+  .logo-white{
+    width: 180px;
+    height: auto;
+  }
+  .footer-icon {
+    width: 50px;
+    height: 50px;
+    background-size:cover;
+  }
 }
+
 @media(max-width:600px){
   .container{
     padding-left: 30px;
@@ -357,6 +384,13 @@
   .img-how-work{
     height: 265px;
   }
+  /* QUESTION */
+  .triger{
+    padding: 30px 0px 30px 0px;
+  }
+  .triger-descr {
+    max-width: 385px;
+  }
 }
 @media(max-width:500px){
   /* HERO */
@@ -384,6 +418,14 @@
   /* HOW WE WORK */
   .img-how-work{
     height:240px;
+  }
+  /* QUESTIONS */
+  .triger-descr {
+    max-width: 332px;
+  }
+  /* FOOTER */
+  .form-input {
+    min-height: 32px;
   }
 }
 @media(max-width:450px){
@@ -418,7 +460,15 @@
   .img-how-work{
     height:211px;
   }
+  /* QUESTIONS */
+  .container-question{
+    margin-bottom: 60px;
+  }
+  .triger-descr {
+    max-width: 284px;
+  }
 }
+
 @media(max-width:400px){
   .container{
     padding: 0px 15px 0px 15px;
@@ -433,6 +483,9 @@
   .title{
     font-size: 18px;
     line-height: 21.94px;
+  }
+  .input{
+    font-size: 14px;
   }
   .logo{
     width: 110px;
@@ -485,6 +538,36 @@
   .btn-how-worrking {
     margin-right: 10px;
   }
+  /* QUESTIONS */
+  .point-icon{
+    width: 30px;
+    height: 30px;
+    background-size: 30px;
+  }
+  /* FOOTER */
+  .container-footer{
+    padding: 33px 15px 16px 15px;
+  }
+  .footer-center{
+    align-items: center;
+  }
+  .form-input {
+    width: 290px;
+  }
+  .footer-botom{
+    padding: 16px 15px 30px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo-white {
+    width: 131px;
+    margin-bottom: 16px;
+  }
+  .footer-icon{
+    width: 40px;
+    height: 40px;
+  }
 }
 @media(max-width:370px){
   /* HERO */
@@ -502,9 +585,18 @@
   }
 }
 @media(max-width:356px){
+  /* HERO */
   .slider__title,
   .slider__text{
     max-width: 288px;
+  }
+  /* QUESTION */
+  .section-heading {
+    padding-bottom: 16px;
+  }
+  .triger-descr {
+    max-width: 264px;
+    font-size: 14px;
   }
 }
 @media(max-width:335px){
@@ -536,5 +628,13 @@
   .btn-steps,
   .btn-how-worrking {
     padding: 12px 38px 12px 38px;
+  }
+  /* QUESTIONS */
+  .triger-descr {
+    max-width: 253px;
+  }
+  /* FOOTER */
+  .form-input{
+    width: 266px;
   }
 }
