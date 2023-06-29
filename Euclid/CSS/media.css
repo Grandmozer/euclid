@@ -265,7 +265,8 @@
     background-size:100%;
   }
   .how-worrking-text{
-    min-width: 667px;
+    max-width: 667px;
+    margin-right: 0px;
   }
   .butons-steps-how-working{
     margin-top: 25px;
@@ -286,6 +287,10 @@
   .slider__text{
     max-width: 483px;
   }
+  /* ABOUT US */
+  .about-services-we-are {
+    min-width: 295px;
+  }
 }
 @media(min-width:628px){
   .about-services-discr-mobile{
@@ -300,6 +305,20 @@
   .about-services-l{
     height: 375px;
   }
+  .about-services-item{
+    border:none;
+    border-radius: none;
+    background-size: 100px;
+    background-position: left 0px top 0px;
+  }
+  .big-indent{
+    padding-left: 0;
+    margin-top: 110px;
+  }
+  /* HOW WE WORK */
+  .img-how-work{
+    border-radius: 0px;
+  }
 }
 @media(max-width:600px){
   .container{
@@ -311,8 +330,18 @@
     max-width: 410px;
     font-size: 45px;
   }
+  /* HOW WORK */
+  .list-steps{
+    padding-bottom: 16px;
+  }
+  .img-how-work{
+    margin-bottom: 0;
+  }
 }
 @media(max-width:550px){ 
+  .title{
+    font-weight: 500;
+  }
   /* HERO */
   .slider__title{
     font-size: 40px;
@@ -323,6 +352,10 @@
   /* ABOUT US */
   .about-services-l {
     height: 280px;
+  }
+  /* HOW WE WORK */
+  .img-how-work{
+    height: 265px;
   }
 }
 @media(max-width:500px){
@@ -348,6 +381,10 @@
   .section-heading{
     font-size: 36px;
   }
+  /* HOW WE WORK */
+  .img-how-work{
+    height:240px;
+  }
 }
 @media(max-width:450px){
   /* HERO */
@@ -367,14 +404,35 @@
   .slider{
     height: 445px;
   }
+  /* ABOUT US */
+  .about-services-item{
+    background-size: 85px;
+  }
+  .big-indent {
+    margin-top: 80px;
+  }
+  /* HOW WE WORK */
+  .how-worrking-title {
+    padding-bottom: 20px;
+  }
+  .img-how-work{
+    height:211px;
+  }
 }
 @media(max-width:400px){
   .container{
     padding: 0px 15px 0px 15px;
   }
+  button{
+    font-size: 12px;
+  }
   .text{
     font-size: 14px;
     line-height: 28px;
+  }
+  .title{
+    font-size: 18px;
+    line-height: 21.94px;
   }
   .logo{
     width: 110px;
@@ -415,11 +473,21 @@
     font-size: 24px;
     line-height: 29.26px;
   }
+  .section-about-services {
+    padding: 50px 0px 60px 0px;
+  }
   .about-services-l {
     height: 246px;
   }
+  .about-services-item{
+    height: 249px;
+  }
+  .btn-how-worrking {
+    margin-right: 10px;
+  }
 }
 @media(max-width:370px){
+  /* HERO */
   .slider__title,
   .slider__text{
     max-width: 307px;
@@ -427,6 +495,10 @@
   .btn-large{
     padding:10px 37px ;
     border-radius: 8px;
+  }
+  /* HOW WORK */
+  .img-how-work {
+    height: 190px;
   }
 }
 @media(max-width:356px){
@@ -436,6 +508,7 @@
   }
 }
 @media(max-width:335px){
+  /* HERO */
   .slider__title,
   .slider__text{
     max-width: 266px;
@@ -455,5 +528,13 @@
   /* ABOUT US */
   .about-services-l {
     height: 200px;
+  }
+  /* HOW WORK */
+  .img-how-work {
+    height: 160px;
+  }
+  .btn-steps,
+  .btn-how-worrking {
+    padding: 12px 38px 12px 38px;
   }
 }
