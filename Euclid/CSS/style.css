@@ -89,12 +89,14 @@
   .container-pading{
     padding: 75px;
   }
-
   .text{
     margin: 0;
     font-size: 16px;
     line-height: 32px;
     font-weight: 400;
+  }
+  .do-not-display{
+    display: none;
   }
   /* HEADER */
   .header{
@@ -118,6 +120,7 @@
 .logo-white{
   width: 225px;
   height: 72px;
+  transition: all 0.5s 0.8s ease;
 }
 
 .header-nav{
