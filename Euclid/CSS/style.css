@@ -518,8 +518,8 @@
   display: flex;
   justify-content: space-between;
   padding-left: 5px;
-  padding-bottom: 33px;
-  padding-top: 30px;
+  /* padding-bottom: 33px;
+  padding-top: 30px; */
   align-items: center;
   font-weight: bold;
   font-size: 24px;
