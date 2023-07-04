@@ -12,14 +12,35 @@
   <link rel="icon" href="IMG\favicon.svg" type="image/x-icon">
   <script defer src="JS\search.js"></script>
   <script defer src="JS\swiper.js"></script>
+  <script defer src="JS\burger.js"></script>
   <script defer src="JS\hiden.js"></script>
+
 
 </head>
 <body>
   <header class="header">
     <div>
       <div class="header-menu container">
-        <button class="burger" id="burger"></button>
+        <div id="menu" class="menu">
+          <ul class="mobile">
+            <li class="header-nav-item">
+              <a href="#О_нас">О нас</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#Проекты">Проекты</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#Этапы">Этапы</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#Отзывы">Отзывы</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#Контакты">Контакты</a>
+            </li>
+          </ul>
+          <button class="burger" id="burger"></button>
+      </div>
         <a href="\index.html"><img src="IMG\Logo.svg" alt="logo" class="logo" id="logoHeader"></a>
         <nav class="header-nav">
         <ul class="header-nav-list">
@@ -45,24 +66,7 @@
               <button type="button" id="close-search" class="btn-close-search"></button>
             </form>
           </div>
-          </ul>
-          <ul class="mobile">
-            <li class="header-nav-item">
-              <a href="#О_нас">О нас</a>
-            </li>
-            <li class="header-nav-item">
-              <a href="#Проекты">Проекты</a>
-            </li>
-            <li class="header-nav-item">
-              <a href="#Этапы">Этапы</a>
-            </li>
-            <li class="header-nav-item">
-              <a href="#Отзывы">Отзывы</a>
-            </li>
-            <li class="header-nav-item">
-              <a href="#Контакты">Контакты</a>
-            </li>
-          </ul>
+        </ul>
         </nav>
       </div>
     </div>

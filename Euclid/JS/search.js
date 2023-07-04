@@ -84,5 +84,6 @@ closeSearch.addEventListener('click', () => {
 //   lastResFind=textToFind; // сохраняем фразу для поиска, чтобы в дальнейшем по ней стереть все ссылки
 //   window.location = '#'+textToFind;//перемещаем скрол к последнему найденному совпадению
 //  }
+
 }
 search();
