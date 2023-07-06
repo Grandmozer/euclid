@@ -49,6 +49,14 @@ fiveBtn.addEventListener('click', () => {
 //     text[i].classList.remove('do-not-display');
 // }
 
+
+  // document.querySelectorAll('.trigger').forEach(function(el){
+    //     el.addEventListener('click',function(event){
+    //         console.log(event)
+    //         event.target.classList.toggle('do-not-display');
+
+    //     })
+    // })
 }
 
 hiden();

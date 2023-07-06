@@ -63,11 +63,10 @@
     background-size:contain;
     cursor: pointer;
   }
-  .is-active{
+  /* .is-active{
     position: absolute;
-    
     background-color: red;
-  }
+  } */
   .header-menu{
     padding: 0px 50px 0px 50px;
   }
