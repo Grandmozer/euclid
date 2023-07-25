@@ -11,10 +11,16 @@
   <link rel="stylesheet" href="CSS\stylsheet.css">
   <link rel="icon" href="IMG\favicon.svg" type="image/x-icon">
   <script defer src="JS\search.js"></script>
-  <script defer src="JS\swiper.js"></script>
+  <!-- <script defer src="JS\swiper.js"></script> -->
   <script defer src="JS\burger.js"></script>
   <script defer src="JS\hiden.js"></script>
-
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
 
 </head>
 <body>
@@ -127,28 +133,65 @@
   </div>
 </section>
 <section class="container">
-  <div class="container-steps">
+  <div class="container-steps" id="tabs">
     <h2 class="section-heading how-worrking-title s" id="Этапы">Как мы работаем</h2>
-    <div class="list-steps">
-      <button class="step step-active">1 шаг</button>
-      <button class="step">2 шаг</button>
-      <button class="step">3 шаг</button>
-      <button class="step">4 шаг</button>
+    <div class="list-steps" >
+      <ul  class="list-steps">
+      <li class="step step-active"><a href="#tabs-1">1 шаг</a></li>
+      <li class="step"><a href="#tabs-2">2 шаг</a></li>
+      <li class="step"><a href="#tabs-3">3 шаг</a></li>
+      <li class="step"><a href="#tabs-4">4 шаг</a></li>
+    </ul>
     </div>
-    <div class="how-worrking-slider">
+    <div class="how-worrking-slider" id="tabs-1">
       <div class="how-worrking-slid">
         <!-- <div class="img-how-work hidden-for-dec"></div> -->
-        <h3 class="title s">Проводим консультацию</h3>
-        <p class="text how-worrking-text s">Влечёт за собой процесс внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями. 
-          А также представители современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, призваны к ответу.
+        <h3 class="title s" id="titleHowWeWork">Проводим консультацию</h3>
+        <p class="text how-worrking-text s" id="textHowWeWork">Влечёт за собой процесс внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями.<br> А также представители современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, призваны к ответу.
         </p>
         <div class="butons-steps-how-working">
         <button class="btn btn-how-worrking s">Подробнее</button>
         <button class="btn-steps s">Договор</button>
       </div>
       </div>
-      <div class="img-how-work hidden"></div>
+      <div class="img-how-work" id="imgHowWork"></div>
     </div>
+    <div class="how-worrking-slider" id="tabs-2">
+      <div class="how-worrking-slid">
+        <h3 class="title s">Составляем смету</h3>
+        <p class="text how-worrking-text s" >Внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями. А также представители современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований.
+        </p>
+        <div class="butons-steps-how-working">
+        <button class="btn btn-how-worrking s">Подробнее</button>
+        <button class="btn-steps s">Договор</button>
+      </div>
+      </div>
+      <div class="img-how-work2"></div>
+    </div>
+    <div class="how-worrking-slider" id="tabs-3">
+      <div class="how-worrking-slid">
+        <h3 class="title s">Привлекаем подрядчиков</h3>
+        <p class="text how-worrking-text s" >Идейные соображения высшего порядка, а также новая модель организационной деятельности требует анализа прогресса профессионального сообщества. Высокий уровень вовлечения представителей целевой аудитории является чётким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений развития. Разнообразный и богатый опыт говорит нам, что новая модель организационной деятельности говорит о возможностях системы массового участия. Принимая во внимание показатели успешности, постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнить важные задания по разработке прогресса профессионального сообщества.
+        </p>
+        <div class="butons-steps-how-working">
+        <button class="btn btn-how-worrking s">Подробнее</button>
+        <button class="btn-steps s">Договор</button>
+      </div>
+      </div>
+      <div class="img-how-work3"></div>
+    </div>   <div class="how-worrking-slider" id="tabs-4">
+      <div class="how-worrking-slid">
+        <h3 class="title s">Инспектируем все этапы работ</h3>
+        <p class="text how-worrking-text s" >Высокий уровень вовлечения представителей целевой аудитории является чётким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений развития. Разнообразный и богатый опыт говорит нам, что новая модель организационной деятельности говорит 
+          о возможностях системы массового участия. Принимая во внимание показатели успешности, постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет.
+        </p>
+        <div class="butons-steps-how-working">
+        <button class="btn btn-how-worrking s">Подробнее</button>
+        <button class="btn-steps s">Договор</button>
+      </div>
+      </div>
+      <div class="img-how-work4"></div>
+    </div> 
   </div>
 </section>
 <section class="container">

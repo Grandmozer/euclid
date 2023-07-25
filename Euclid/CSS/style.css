@@ -462,6 +462,9 @@
 .step:not(:last-child) {
   padding-right: 65px;
 }
+.step{
+  cursor: pointer;
+}
 .step-active{
   color: var(--dark-yellow);
 }
@@ -503,12 +506,23 @@
   border: solid var(--black-color) 1px;
 }
 
-.img-how-work{
+.img-how-work,.img-how-work2,.img-how-work3,.img-how-work4{
   width: 870px;
   height: 460px;
   border-radius: 32px;
-  background-image:url(/IMG/How-working-large-1.png);
   background-repeat:no-repeat;
+}
+.img-how-work{
+  background-image:url(/IMG/How-working-large-1.png);
+}
+.img-how-work2{
+  background-image:url(/IMG/How-working-large-2.png);
+}
+.img-how-work3{
+  background-image:url(/IMG/How-working-large-3.png);
+}
+.img-how-work4{
+  background-image:url(/IMG/How-working-large-4.png);
 }
 /* questions */
 .container-question{

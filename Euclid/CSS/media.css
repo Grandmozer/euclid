@@ -137,10 +137,21 @@
     max-width: 437px;
     margin-right: 50px;
   }
-  .img-how-work{
-    background-image:url(/IMG/How-working-midle-1.png);
+  .img-how-work,.img-how-work2,.img-how-work3,.img-how-work4{
     width:437px ;
     height: 689px;
+  }
+  .img-how-work{
+    background-image:url(/IMG/How-working-midle-1.png);
+  }
+  .img-how-work2{
+    background-image:url(/IMG/How-working-midle-2.png);
+  }
+  .img-how-work3{
+    background-image:url(/IMG/How-working-midle-3.png);
+  }
+  .img-how-work4{
+    background-image:url(/IMG/How-working-midle-4.png);
   }
 
   /* QUESTION */
@@ -257,21 +268,34 @@
     padding-bottom: 50px;
   }
   .list-steps{
+    display: flex;
     justify-content: space-between;
   }
-  .step:not(:last-child){
+ 
+  /* .step:not(:last-child){
     padding-right: 0px;
-  }
+  } */
   .how-worrking-slider{
     margin-bottom: 49px;
     flex-direction: column-reverse;
   }
-  .img-how-work{
+  .img-how-work,.img-how-work2,.img-how-work3,.img-how-work4{
     height: 284px;
     width: 100%;
     margin-bottom: 38px;
-    background-image:url(/IMG/How-working-large-1.png);
     background-size:100%;
+  }
+  .img-how-work{
+    background-image:url(/IMG/How-working-large-1.png);
+  }
+  .img-how-work2{
+    background-image:url(/IMG/How-working-large-2.png);
+  }
+  .img-how-work3{
+    background-image:url(/IMG/How-working-large-3.png);
+  }
+  .img-how-work4{
+    background-image:url(/IMG/How-working-large-4.png);
   }
   .how-worrking-text{
     max-width: 667px;
@@ -337,9 +361,10 @@
     margin-top: 110px;
   }
   /* HOW WE WORK */
-  .img-how-work{
+  .img-how-work,.img-how-work2,.img-how-work3,.img-how-work4{
     border-radius: 0px;
   }
+
   /* QUESTIONS */
   .triger-descr {
     max-width: 430px;
@@ -378,9 +403,11 @@
   .list-steps{
     padding-bottom: 16px;
   }
-  .img-how-work{
+
+  .img-how-work,.img-how-work2,.img-how-work3,.img-how-work4{
     margin-bottom: 0;
   }
+
 }
 @media(max-width:550px){ 
   .title{
@@ -402,9 +429,10 @@
     height: 280px;
   }
   /* HOW WE WORK */
-  .img-how-work{
+  .img-how-work,.img-how-work2,.img-how-work3,.img-how-work4{
     height: 265px;
   }
+
   /* QUESTION */
   .triger{
     padding: 30px 0px 30px 0px;
@@ -441,9 +469,10 @@
     font-size: 36px;
   }
   /* HOW WE WORK */
-  .img-how-work{
+  .img-how-work,.img-how-work2,.img-how-work3,.img-how-work4{
     height:240px;
   }
+
   /* QUESTIONS */
   .triger-descr {
     max-width: 332px;
@@ -482,9 +511,13 @@
   .how-worrking-title {
     padding-bottom: 20px;
   }
-  .img-how-work{
+  .step:not(:last-child){
+    padding-right: 60px;
+  }
+  .img-how-work,.img-how-work2,.img-how-work3,.img-how-work4{
     height:211px;
   }
+
   /* QUESTIONS */
   .container-question{
     margin-bottom: 60px;
@@ -567,6 +600,10 @@
   .btn-how-worrking {
     margin-right: 10px;
   }
+  /* HOW WE WORK */
+  .step:not(:last-child) {
+    padding-right: 50px;
+  }
   /* QUESTIONS */
   .point-icon{
     width: 30px;
@@ -613,9 +650,10 @@
     border-radius: 8px;
   }
   /* HOW WORK */
-  .img-how-work {
+  .img-how-work,.img-how-work2,.img-how-work3,.img-how-work4{
     height: 190px;
   }
+
 }
 @media(max-width:356px){
  ::-moz-placeholder {
@@ -625,6 +663,10 @@
   .slider__title,
   .slider__text{
     max-width: 288px;
+  }
+  /* HOW WE WORK */
+  .step:not(:last-child) {
+    padding-right: 36px;
   }
   /* QUESTION */
   .section-heading {
@@ -662,7 +704,7 @@
     height: 200px;
   }
   /* HOW WORK */
-  .img-how-work {
+  .img-how-work,.img-how-work2,.img-how-work3,.img-how-work4{
     height: 160px;
   }
   .btn-steps,
