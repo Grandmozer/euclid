@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="CSS\stylsheet.css">
   <link rel="icon" href="IMG\favicon.svg" type="image/x-icon">
   <script defer src="JS\search.js"></script>
-  <!-- <script defer src="JS\swiper.js"></script> -->
+  <script defer src="JS\swiper.js"></script>
   <script defer src="JS\burger.js"></script>
   <script defer src="JS\hiden.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
@@ -27,26 +27,25 @@
   <header class="header">
     <div>
       <div class="header-menu container">
-        <div id="menu" class="menu">
-          <ul class="mobile">
-            <li class="header-nav-item">
-              <a href="#О_нас">О нас</a>
-            </li>
-            <li class="header-nav-item">
-              <a href="#Проекты">Проекты</a>
-            </li>
-            <li class="header-nav-item">
-              <a href="#Этапы">Этапы</a>
-            </li>
-            <li class="header-nav-item">
-              <a href="#Отзывы">Отзывы</a>
-            </li>
-            <li class="header-nav-item">
-              <a href="#Контакты">Контакты</a>
-            </li>
-          </ul>
-          <button class="burger" id="burger"></button>
-      </div>
+        <header class="mobile">
+          <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </header>
+        
+        <div class="menu">
+          <nav>
+            <ul>
+              <li><a href="#О_нас">О нас</a></li>
+              <li><a  href="#Проекты">Проекты</a></li>
+              <li><a href="#Этапы">Этапы</a></li>
+              <li><a href="#Отзывы">Отзывы</a></li>
+              <li><a href="#Контакты">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
         <a href="\index.html"><img src="IMG\Logo.svg" alt="logo" class="logo" id="logoHeader"></a>
         <nav class="header-nav">
         <ul class="header-nav-list">
@@ -137,10 +136,10 @@
     <h2 class="section-heading how-worrking-title s" id="Этапы">Как мы работаем</h2>
     <div class="list-steps" >
       <ul  class="list-steps">
-      <li class="step step-active"><a href="#tabs-1">1 шаг</a></li>
-      <li class="step"><a href="#tabs-2">2 шаг</a></li>
-      <li class="step"><a href="#tabs-3">3 шаг</a></li>
-      <li class="step"><a href="#tabs-4">4 шаг</a></li>
+      <li class="step "><a href="#tabs-1" id="stepOne">1 шаг</a></li>
+      <li class="step"><a href="#tabs-2" id="stepTwo">2 шаг</a></li>
+      <li class="step"><a href="#tabs-3" id="stepThree">3 шаг</a></li>
+      <li class="step"><a href="#tabs-4" id="stepFour">4 шаг</a></li>
     </ul>
     </div>
     <div class="how-worrking-slider" id="tabs-1">

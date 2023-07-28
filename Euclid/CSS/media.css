@@ -39,7 +39,8 @@
   }
   .burger,
   .menu,
-  .mobile{
+  .mobile,
+  .menu-btn{
     display: none;
   }
   .search{
@@ -48,6 +49,9 @@
 }
 
 @media(max-width:1100px){  
+  .container {
+    max-width: 1000px;
+  }
     /* HEADER */
   .logo{
     width: 150px;
@@ -62,6 +66,7 @@
     background-image: url(/IMG/burger.svg);
     background-size:contain;
     cursor: pointer;
+    
   }
   /* .is-active{
     position: absolute;
@@ -213,6 +218,11 @@
   .input-search-active{
     width: 449px;
   }
+  .menu{
+  width: 420px;
+  height: 601px;
+  padding: 150px 0px 0px 50px;
+  }
 
   /* HERO */
   .section-heading{
@@ -339,6 +349,16 @@
   }
 }
 @media(max-width:628px){
+  /* HEADER */
+  .menu{
+    width: 400px;
+    height: 601px;
+    padding: 150px 0px 0px 50px;
+    font-size: 20px;
+    }
+  .menu li {
+    padding-bottom: 50px;
+  }
   /* SEARCH */
   .input-search-active {
     width: 300px;
@@ -413,6 +433,16 @@
   .title{
     font-weight: 500;
   }
+  /* HEADER */
+  .menu{
+    width: 320px;
+    height: 370px;
+    padding: 100px 0px 0px 50px;
+    font-size: 20px;
+    }
+  .menu li {
+    padding-bottom: 50px;
+  }
   /* SEARCH */
   .search-active{
     box-shadow:none;
@@ -483,6 +513,16 @@
   }
 }
 @media(max-width:450px){
+  /* HEADER */
+  .menu{
+    width: 280px;
+    height: 307px;
+    padding: 100px 0px 0px 30px;
+    font-size: 16px;
+    }
+  .menu li {
+    padding-bottom: 32px;
+  }
   /* HERO */
   .slider__title{
     max-width: 302px;
@@ -553,6 +593,11 @@
   .input-search-active {
     width: 193px;
   }
+  .menu{
+    width: 280px;
+    height: 277px;
+    padding: 78px 0px 0px 15px;
+    }
   /* HERO */
   .slider__title,
   .slider__text{
@@ -636,6 +681,13 @@
   }
 }
 @media(max-width:370px){
+    /* HEADER */
+  .menu{
+    width: 220px;
+    height:277px;
+    padding: 78px 0px 0px 50px;
+    font-size: 16px;
+    }
   /* SEARCH */
   .input-search-active {
     width: 193px;
@@ -659,6 +711,12 @@
  ::-moz-placeholder {
     font-size: 14px;
   }
+  /* HEADER */
+  .menu{
+    width: 220px;
+    height:277px;
+    font-size: 16px;
+    }
   /* HERO */
   .slider__title,
   .slider__text{
